@@ -22,7 +22,7 @@ def get_criticism_response():
                     "content": "what can I do if criticism is too harsh?"
                 }
             ],
-            temperature=0,  # 随机性最低，输出更稳定
+            temperature=0.7,  # 随机性最低，输出更稳定(0,1)
             max_tokens=1024,  # 最大生成token数
             # 以下为默认值，可省略
             # top_p=1.0,
